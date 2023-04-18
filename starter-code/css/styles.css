@@ -7,6 +7,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     color: #ffffff;
     background-color: #151515;
+    position: relative;
 }
 
 main {
@@ -56,18 +57,18 @@ nav,
 }
 
 .ring-pattern-top {
-    left: -265px; /* -100px + 165px */
+    left: -265px; /* -100px - 165px */
     top: 133px;
     z-index: -100;
 }
 
 .ring-pattern-middle {
-    left: 1249px; /* 1149px + 165px */
+    left: 1249px; /* 1149px - 165px */
     top: 1077px;
 }
 
 .ring-pattern-bottom {
-    left: -40px; /* -205px + 165px */
+    left: -40px; /* -205px - 165px */
     top: 3524px;
 }
 
