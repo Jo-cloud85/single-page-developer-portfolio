@@ -10,12 +10,13 @@ body {
 }
 
 main {
-    padding: 0 calc(((100vw - 1440px) / 2) + 156px);
+    padding: 0 calc(((100vw - 1440px) / 2) + 165px);
 }
 
 /* Nav section */
 
-nav {
+nav,
+.bottom-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,6 +58,7 @@ nav {
 .ring-pattern-top {
     left: -265px; /* -100px + 165px */
     top: 133px;
+    z-index: -100;
 }
 
 .ring-pattern-middle {
@@ -93,7 +95,7 @@ h1 {
 }
 
 .para-text,
-h5 {
+.skills p {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -154,7 +156,7 @@ h2 {
     letter-spacing: -1.5px;
 }
 
-.project-thumbnail h4 {
+.project-thumbnail p {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -251,7 +253,7 @@ h2 {
 .contact-section { 
     height: auto;
     background-color: #242424;
-    padding: 0 calc(((100vw - 1440px) / 2) + 156px);
+    padding: 0 calc(((100vw - 1440px) / 2) + 165px);
 }
 
 .contact-main-section {
@@ -268,7 +270,7 @@ form {
 }
 
 .input-div {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .input-div input {
@@ -312,6 +314,6 @@ form {
     color: #ff6f5b;
 }
 
-footer nav {
+.bottom-nav {
     padding-bottom: 92px;
 }
