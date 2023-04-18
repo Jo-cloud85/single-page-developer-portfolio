@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-- Main section: ![./screenshots/main-section.png](./screenshot.jpg)
-- Projects section: ![./screenshots/projects-section.png](./screenshot.jpg)
-- Main section: ![./screenshots/contacts-section-error-states.png](./screenshot.jpg)
+- Main section: ![screenshots/main-section.png](screenshots/main-section.png)
+- Projects section: ![screenshots/projects-section.png](screenshots/projects-section.png)
+- Main section: ![screenshots/contacts-section-error-states.png](screenshots/contacts-section-error-states.png)
 
 ### Links
 
