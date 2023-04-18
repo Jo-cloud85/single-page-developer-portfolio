@@ -51,7 +51,7 @@ nav {
     width: 530px;
     height: 129px;
     mix-blend-mode: normal;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 .ring-pattern-top {
@@ -73,7 +73,7 @@ nav {
 
 #intro-text {
     width: 706px;
-    margin-top: 127px;
+    margin-top: 125px;
     margin-bottom: 219px;
 }
 
@@ -205,7 +205,7 @@ h2 {
 
 .skills-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 58px 30px;
     margin: 72px 0 140px 0;
 }
