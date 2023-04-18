@@ -1,0 +1,156 @@
+@media (max-width: 500px) {
+    main {
+        padding: 0 calc(((100vw - 375px) / 2) + 16px);
+    }
+    
+    /* Nav section */
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .nav-title {
+        font-size: 24px;
+        letter-spacing: -0.33px;
+    }
+
+    .social-media-icon {
+        padding: 20px 16px 0px 16px; 
+    }
+
+    /* Ring pattern */
+
+    .ring-pattern-top {
+        left: -326px; /* -342px + 16px */
+        top: 124px;
+    }
+    
+    .ring-pattern-middle {
+        left: 205px; /* 570px + 16px */
+        top: 1287px;
+    }
+    
+    .ring-pattern-bottom {
+        left: -327px; /* -368px + 16px */
+        top: 4615px;
+    }
+
+    /* Text Styles */
+
+    #intro-text {
+        width: 100%;
+        height: auto;
+        margin-top: 331px;
+        margin-bottom: 80px;
+        display: grid;
+        place-content: center;
+        text-align: center;
+    }
+
+    .heading-text,
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.14px;
+    }
+
+    .para-text,
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .heading-text.main {
+        text-align: center;
+    }
+
+    .para-text {
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    .view {
+        padding-top: 20px;
+    }
+
+    .view-text {
+        padding-right: 30px;
+    }
+
+    /* Intro section except nav */
+
+    .circle-pattern {
+        position: absolute;
+        left: 300px;
+        top: 254px;
+    }
+
+    #img-profile-d {
+        display: none;
+    }
+
+    #img-profile-m {
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        width:174px;
+        height:383px;
+        right: calc(((100vw - 580px) / 2) + 115px);
+        top: 0;
+    }
+
+    /* Skills section */
+
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin: 40px 0;
+        text-align: center;
+    }
+    
+    /* Projects section */
+
+    .projects-section {
+        border-top: 1px solid #d9d9d9;
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .header-projects {
+        padding-bottom: 40px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Contact section */
+
+    .contact-section { 
+        padding: 0 calc(((100vw - 768px) / 2) + 30px);
+    }
+
+    .contact-main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    footer nav {
+        padding-bottom: 40px;
+    }
+
+}
